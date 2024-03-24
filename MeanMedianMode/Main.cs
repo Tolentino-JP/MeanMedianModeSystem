@@ -28,8 +28,6 @@ namespace MeanMedianModeBusLogic
         public double prelim { get; set; }
         public double midterm { get; set; }
         public double finals { get; set; }
-
-
     }
 
 
