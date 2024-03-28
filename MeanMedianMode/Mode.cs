@@ -60,7 +60,7 @@ namespace MeanMedianModeBusLogic
 
             for (int i = 0; i < modeNum.Count(); i++)
             {
-                if (i > max)
+                if (modeNum[i] > max)
                 {
                     max = modeNum[i];
                     index = i;
@@ -71,8 +71,7 @@ namespace MeanMedianModeBusLogic
             {
                 listAsString = string.Join(", ", grade);
 
-            }
-            else
+            }else
             {
                 listAsString = grade.ElementAt(index).ToString();
             }

@@ -6,6 +6,7 @@ RangeGrade range = new RangeGrade();
 Variance variance = new Variance();
 StandardDeviation deviation = new StandardDeviation();
 Mode mode = new Mode();
+FinalAverage average = new FinalAverage();
 
 
 
@@ -32,4 +33,6 @@ Console.WriteLine($"Finals Variance: {Math.Round(variance.Finals(),2)}\n");
 Console.WriteLine($"Prelim Standard Deviation: {Math.Round(deviation.Prelim(),2)}");
 Console.WriteLine($"Midterm Standard Deviation: {Math.Round(deviation.Midterm(),2)}");
 Console.WriteLine($"Finals Standard Deviation: {Math.Round(deviation.Finals(),2)}\n");
+
+average.Average();
 
