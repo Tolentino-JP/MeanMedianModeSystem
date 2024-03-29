@@ -19,8 +19,8 @@ Console.WriteLine($"Midterm Median: {Math.Round(median.Midterm(), 2)}");
 Console.WriteLine($"Finals Median: {Math.Round(median.Finals(), 2)}\n");
 
 Console.WriteLine($"Prelim Mode: {mode.Prelim()}");
-Console.WriteLine($"Prelim Mode: {mode.Midterm()}");
-Console.WriteLine($"Prelim Mode: {mode.Finals()}\n");
+Console.WriteLine($"Midterm Mode: {mode.Midterm()}");
+Console.WriteLine($"Finals Mode: {mode.Finals()}\n");
 
 Console.WriteLine($"Prelim Range: {Math.Round(range.Prelim())}");
 Console.WriteLine($"Midterm Range: {Math.Round(range.Midterm())}");
