@@ -18,6 +18,7 @@ namespace MeanMedianModeBusLogic
             var prelimGrade = from students in main.studentNameGrade
                               select students.prelim;
 
+
             foreach (var prelim in prelimGrade)
             {
 

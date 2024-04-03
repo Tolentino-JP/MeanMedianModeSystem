@@ -28,7 +28,7 @@ namespace MeanMedianModeBusLogic
             foreach(var grade in grades)
             {
                 finalAverage.Add( (grade.prelim * 0.3) + (grade.midterm * 0.3) + (grade.finals * 0.4) );
-                Console.WriteLine($"{grade.studentName}: {finalAverage[index]}");
+                Console.WriteLine($"{grade.studentName}: {Math.Ceiling(finalAverage[index])}");
                 index++;
 
             }
